@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TugasK2 {
+public class Tugas2 {
     public static void main(String[] args) {
         Scanner k2 = new Scanner(System.in);
         System.out.print("Masukkan nilai N (minimal 5): ");

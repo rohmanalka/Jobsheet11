@@ -15,10 +15,14 @@ public class NestedLoop_2341760055 {
         }
         for (int i = 0; i < temps.length; i++) {
             System.out.print("Kota ke-" + (i + 1) + ": ");
+            int sum = 0;
             for (int j = 0; j < temps[0].length; j++) {
                 System.out.print(temps[i][j] + " ");
+                sum+=temps[i][j];
             }
             System.out.println();
+            double average = (double) sum / temps[0].length;
+            System.out.println("Rata-rata kota ke-" + (i + 1) + ": " + average);
         }
     }
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TugasK1 {
+public class Tugas1 {
     public static void main(String[] args) {
         Scanner k1 = new Scanner(System.in);
         System.out.print("Masukkan nilai N (minimal 3): ");
